@@ -1,0 +1,16 @@
+# TEST CONFIG
+
+currency2gif:
+  gifServiceApiUrl: http://127.0.0.1:8080/
+  gifServiceAppId: 42
+  gifServiceRating: r
+  gifServiceConnectionTimeoutSec: 3
+  gifServiceReadTimeoutSec: 5
+
+  exchangeRateServiceApiUrl: http://127.0.0.1:8080/
+  exchangeRateServiceAppId: 42
+  exchangeRateServiceConnectionTimeoutSec: 3
+  exchangeRateServiceReadTimeoutSec: 5
+
+  exchangeRateServiceBaseCode: USD
+  exchangeRateServiceCurrencyCode: RUB

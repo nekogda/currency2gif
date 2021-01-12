@@ -1,0 +1,14 @@
+currency2gif:
+  gifServiceApiUrl: https://api.giphy.com/v1
+  gifServiceAppId: "kWJiPqK33k8KVRhdiHCXks1gxC3gHVRW"
+  gifServiceRating: r
+  gifServiceConnectionTimeoutSec: 5
+  gifServiceReadTimeoutSec: 15
+
+  exchangeRateServiceApiUrl: https://openexchangerates.org/api
+  exchangeRateServiceAppId: "002a5ccd742243709b0220464ba007cf"
+  exchangeRateServiceConnectionTimeoutSec: 5
+  exchangeRateServiceReadTimeoutSec: 15
+
+  exchangeRateServiceBaseCode: USD
+  exchangeRateServiceCurrencyCode: RUB

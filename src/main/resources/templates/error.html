@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>C2G Error</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style>
+
+        section {
+            border: 0px;
+            display: flex;
+            justify-content: center;
+        }
+        div {
+          color: #ffffff;
+          background: #ff0000;
+          padding: 24px;
+          display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+
+<section>
+    <div>
+        <p th:text="'Currency2Gif Service Unavailable.'"/>
+        <p th:text="'Reason: ' + ${errorInfo.getMessage()}"/>
+    </div>
+</section>
+
+</body>
+</html>

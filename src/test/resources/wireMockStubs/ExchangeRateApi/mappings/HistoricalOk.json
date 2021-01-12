@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/historical/2021-01-11.json?app_id=42&symbols=RUB"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "disclaimer": "Usage subject to terms: https://openexchangerates.org/terms",
+      "license": "https://openexchangerates.org/license",
+      "timestamp": 1610409557,
+      "base": "USD",
+      "rates": {
+        "RUB": 74.6631
+      }
+    }
+  }
+}

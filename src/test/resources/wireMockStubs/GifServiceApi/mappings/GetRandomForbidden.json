@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/gifs/random?api_key=INVALID_APP_ID&tag=broke&rating=r"
+  },
+  "response": {
+    "status": 403,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "message": "Invalid authentication credentials"
+    }
+  }
+}

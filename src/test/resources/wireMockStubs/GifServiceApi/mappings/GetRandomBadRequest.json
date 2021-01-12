@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/gifs/random?api_key=42&tag=broke&rating=X"
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "data": [],
+      "meta": {
+        "status": "400",
+        "msg": "Invalid rating format. Use one of \"y\", \"g\", \"pg\", \"pg-13\", \"r\", \"unrated\", \"nsfw\", \"\"",
+        "response_id": "4e51f3630f76fafcff6b3a81a7c76ce571c389ca"
+      }
+    }
+  }
+}
+

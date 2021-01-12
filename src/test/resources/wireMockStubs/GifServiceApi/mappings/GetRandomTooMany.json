@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/gifs/random?api_key=TOO_MANY&tag=broke&rating=r"
+  },
+  "response": {
+    "status": 429,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "message": "Service busy"
+    }
+  }
+}

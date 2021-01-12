@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>C2G Rate Report</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style>
+
+        section {
+            border: 0px;
+            display: flex;
+            justify-content: center;
+        }
+        div {
+          color: #fff;
+          background: #2d2d2d;
+          padding: 12px;
+          display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+<section>
+    <div>
+        <p th:text="'Hello!'"/>
+        <p th:text="'Latest currency rate: ' + ${exchangeInfo.getCurrencyRate()}"/>
+        <p><img th:src="${exchangeInfo.getUrl()}"/></p>
+    </div>
+</section>
+</body>
+</html>

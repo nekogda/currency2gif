@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/latest.json?app_id=INVALID_APP_ID&symbols=RUB"
+  },
+  "response": {
+    "status": 401,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "error": true,
+      "status": 401,
+      "message": "invalid_app_id",
+      "description": "Invalid App ID provided. Please sign up at https://openexchangerates.org/signup, or contact support@openexchangerates.org."
+    }
+  }
+}

@@ -47,3 +47,21 @@ currency2gif:
 и наполните его в соответствии с примером выше. 
 Почитать более подробно о том, как можно передать настройки
 в приложение можно по [ссылке](https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-external-config-files).
+
+### Docker
+#### Get sources
+```
+$ git clone https://github.com/nekogda/currency2gif
+$ cd currency2gif
+```
+#### Multi-stage build
+
+```
+$ docker build -t bloodycorp/c2g . 
+```
+
+#### Run application
+
+```
+$ docker run -p 8080:8080 bloodycorp/c2g
+```
